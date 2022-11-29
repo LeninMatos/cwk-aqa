@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Exemplos*/
+.menu {
+    background-color: aqua;
+}
+.secao-banner {
+    background-color:blue;
+    height: 200px;
+}
+.secao-servicos {
+    background-color: aquamarine;
+    height: 600px;
+}
+
+.secao-infra {
+    background-color: aqua;
+    height: 600px;
+}
+
+.secao-localizacao {
+    background-color: aquamarine;
+    height: 400px;
+}
+.rodape {
+    background-color:blue;
+    height: 50px;
+}
+/*Exemplos*/
+
