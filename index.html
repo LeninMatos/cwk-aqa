@@ -8,47 +8,256 @@
     <link rel="stylesheet" type="text/css" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/5516997712838?text=Olá,%20gostaria%20de%20mais%20informaões%20sobre%20o%20Coworking%20Araraquara"
+        style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
     <title>Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+    </style>
 
 <body>
     </head>
-    <header>
-        <section class="menu">
-            <img src="" alt="">
-            <nav>
+    <header class="secao-menu" id="menu">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="Sabiá.png" alt="Logo Segue o Fluxo" class="bounce-top">
+            </div>
+
+            <div class="nav-list">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="nav-item"><a href="#secao-servicos" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#secao-infra " class="nav-link">Infraestrutura</a></li>
+                    <li class="nav-item"><a href="#secao-contato" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#secao-localizacao" class="nav-link">Localização</a></li>
                 </ul>
-            </nav>
-        </section>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="menu_white_36dp.svg" alt="menu_white_36dp" class="icon"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#secao-servicos" class="nav-link" onclick="">Serviços</a></li>
+                <li class="nav-item"><a href="#secao-infra " class="nav-link">Infraestrutura</a></li>
+                <li class="nav-item"><a href="#secao-contato" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#secao-localizacao" class="nav-link">Localização</a></li>
+            </ul>
+        </div>
+
     </header>
     <main>
-        <section class="secao-banner container">
-            <img src="" alt="">
+        <section class="secao-banner" id="secao-banner">
+            <div class="video-em-loop">
+                <video width="100%" height="auto" autoplay loop muted playsinline class="video">
+                    <source src="Timelapse-CoworkingAraraquara.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="titulo reveal">
+                <h1>O mundo do trabalho mudou!</h1>
+            </div>
+            <div class="sub-titulo reveal">
+                <h2>Com o Coworking Araraquara sua empresa tem uma alternativa ao home office! <h2>
+                        <h2><em>Somos referência em escritórios compartilhados na região!</em></h2>
+            </div>
         </section>
-        <section class="secao-servicos container">
-
+        <section class="secao-servicos" id="secao-servicos">
+            <div class="titulo reveal">
+                <h2>Nossos Serviços</h2>
+            </div>
+            <div class="servicos reveal">
+                <div class="cartao-servico">
+                    <h3>Mesa Individual - Mensal</h3>
+                    <img src="/mesa-individual.jpg" alt="" class="imagem-servico">
+                    <p>Mesa fixa com armário e chave, internet cabeada e wi-fi, acesso com digital, cafe, cappuccino e chocolate quente free!</p>
+                    <h3>R$450/mês</h3>
+                    <button class="botao"><a
+                            href="https://wa.me/5516997712838?text=Olá,%20gostaria%20de%20mais%20informaões%20sobre%20a%20Mesa%20Individual%20-%20Mensal"
+                            class="link-servico">Saiba mais</a></button>
+                </div>
+                <div class="cartao-servico">
+                    <h3>Mesa Individual - 1/2 mês</h3>
+                    <img src="/mesa-individual.jpg" alt="" class="imagem-servico">
+                    <p>Mesa com armário e chave, internet cabeada e wi-fi, acesso com digital, cafe, cappuccino e chocolate quente free!</p>
+                    <h3>R$225/mês</h3>
+                    <button class="botao"><a
+                            href="https://wa.me/5516997712838?text=Olá,%20gostaria%20de%20mais%20informaões%20sobre%20a%20Mesa%20Individual%20-%201/2%20Mês"
+                            class="link-servico">Saiba mais</a></button>
+                </div>
+                <div class="cartao-servico">
+                    <h3>Mesa Individual - Diária</h3>
+                    <img src="/mesa-individual.jpg" alt="" class="imagem-servico">
+                    <p>Mesa com armário e chave, internet cabeada e wi-fi, cafe free!</p>
+                    <h3>R$50/dia</h3>
+                    <button class="botao"><a
+                            href="https://wa.me/5516997712838?text=Olá,%20gostaria%20de%20mais%20informaões%20sobre%20a%20Mesa%20Individual%20-%20Diária"
+                            class="link-servico">Saiba mais</a></button>
+                </div>
+                <div class="cartao-servico">
+                    <h3>Sala de Reunião</h3>
+                    <img src="/sala-reuniao.jpg" alt="" class="imagem-servico">
+                    <p>Sala para até 6 pessoas, com TV Smart de 45", internet cabeada e wi-fi, café e água. Local reservado e com conforto acústico</p>
+                    <p>Descontos progressivos</p>
+                    <h3>R$50/hora</h3>
+                    <button class="botao"><a
+                            href="https://wa.me/5516997712838?text=Olá,%20gostaria%20de%20mais%20informaões%20sobre%20a%20Sala%20de%20Reunião"
+                            class="link-servico">Saiba mais</a></button>
+                </div>
+                <div class="cartao-servico">
+                    <h3>Sala de Trenamento - Diária</h3>
+                    <img src="/sala-treinamento.jpg" alt="" class="imagem-servico">
+                    <p>08h as 18h.</p>
+                    <p>Sala para até 30 pessoas com internet a cabo e wi-fi, projetor, lousa de vidro, flip-chart, café e água.</p>
+                    <h3>R$500/dia (seg-sex)</h3>
+                    <h3>R$600/dia (sáb)</h3>
+                    <button class="botao"><a
+                            href="https://wa.me/5516997712838?text=Olá,%20gostaria%20de%20mais%20informaões%20sobre%20a%20Sala%20de%20Treinamento%20-%20Diária"
+                            class="link-servico">Saiba mais</a></button>
+                </div>
+                <div class="cartao-servico">
+                    <h3>Sala de Trenamento - 1/2 diária</h3>
+                    <img src="/sala-treinamento.jpg" alt="" class="imagem-servico">
+                    <p>das 08h às 12h.ou das 14h às 18h</p>
+                    <p>Sala para até 30 pessoas com internet a cabo e wi-fi, projetor, lousa de vidro, flip-chart, café e água.</p>
+                    <h3>R$300/dia (seg-sex)</h3>
+                    <h3>R$400/dia (sáb)</h3>
+                    <button class="botao"><a
+                            href="https://wa.me/5516997712838?text=Olá,%20gostaria%20de%20mais%20informaões%20sobre%20a%20Sala%20de%20Treinamento%20-%201/2%20Diária"
+                            class="link-servico">Saiba mais</a></button>
+                </div>
+            </div>
         </section>
-        <section class="secao-infra container">
-
+        <section class="secao-infra" id="secao-infra">
+            <div class="titulo reveal">
+                <h2>Nassa Infraestrutura</h2>
+            </div>
+            <div class="infra reveal">
+                <div class="cartao-infra">
+                    <img src="/icons8-address-100.png" alt="" class="imagem-infra">
+                    <h3>Ótima localização</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-internet-100.png" alt="" class="imagem-infra">
+                    <h3>Redundância de links</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-wi-fi-logo-100.png" alt="" class="imagem-infra">
+                    <h3>Wi-fi de alta performace</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-air-conditioner-100.png" alt="" class="imagem-infra">
+                    <h3>Ambiente climatizado</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-coffee-100.png" alt="" class="imagem-infra">
+                    <h3>Café gratuito</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-locker-100.png" alt="" class="imagem-infra">
+                    <h3>Armário com chave</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-cocktail-100.png" alt="" class="imagem-infra">
+                    <h3>Happy Hours</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-data-protection-100.png" alt="" class="imagem-infra">
+                    <h3>Proteção de dados</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-pizza-100.png" alt="" class="imagem-infra">
+                    <h3>Copa completa</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-print-100.png" alt="" class="imagem-infra">
+                    <h3>Impressora livre</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-rainwater-catchment-100.png" alt="" class="imagem-infra">
+                    <h3>Uso de água de chuva</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-recycle-100.png" alt="" class="imagem-infra">
+                    <h3>Coleta seletiva</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-solar-energy-100.png" alt="" class="imagem-infra">
+                    <h3>Uso de energia solar</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-wheelchair-100.png" alt="" class="imagem-infra">
+                    <h3>Acessibilidade</h3>
+                </div>
+                <div class="cartao-infra">
+                    <img src="/icons8-wall-mount-camera-100.png" alt="" class="imagem-infra">
+                    <h3>Monitoramento 24h</h3>
+                </div>
+            </div>
         </section>
-        <section class="secao-contato container">
-
+        <section class="secao-contato" id="secao-contato">
+            <div class="contato reveal">
+                <div class="titulo">
+                    <h2>Entre em Contato</h2>
+                </div>
+                <form class="form" method="POST" action="./email.php">
+                    <input type="text" name="nome" required placeholder="Nome">
+                    <input type="email" name="email" required placeholder="seuemail@mail.com">
+                    <input type="tel" name="telefone" required placeholder="XX XXXXXXXX">
+                    <textarea name="mensagem" required rows="5" placeholder="Mensagem"></textarea>
+                    <input type="submit" value="Enviar" class="botao">
+                    <input type="reset" value="Limpar" class="botao">
+                </form>
+            </div>
         </section>
-        <section class="secao-localizacao container">
-
+        <section class="secao-localizacao" id="secao-localizacao">
+            <div class="localizacao reveal">
+                <div class="titulo">
+                    <h2>Venha nos conhecer!</h2>
+                </div>
+                <div class="container">
+                    <h2 class="titulo">Unidade 01</h2>
+                    <iframe class="iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d654.9820326904995!2d-48.17793027646041!3d-21.77492350412239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f142e84415d5%3A0xa2ba29e31ed14a13!2sCoworking%20Araraquara%20(Unidade%2001)!5e0!3m2!1spt-BR!2sbr!4v1661803842680!5m2!1spt-BR!2sbr"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="container">
+                    <h2 class="titulo">Unidade 02</h2>
+                    <iframe class="iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.3685846077337!2d-48.17337758435743!3d-21.765991403631897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f12a18862359%3A0xa15b9721b184cb36!2sCoworking%20Araraquara%20(Unidade%2002)!5e0!3m2!1spt-BR!2sbr!4v1663013055898!5m2!1spt-BR!2sbr"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="rodape">
-          
+        <section class="redes-sociais">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/coworking_araraquara/" class="social-icon social-icon--instagram">
+                    <i class="fa fa-instagram"></i>
+                    <div class="tooltip">Instagram</div>
+                </a>
+                <a href="https://www.linkedin.com/company/coworkingararaquara/"
+                    class="social-icon social-icon--linkedin">
+                    <i class="fa fa-linkedin"></i>
+                    <div class="tooltip">LinkedIn</div>
+                </a>
+                <a href="https://www.facebook.com/coworkingararaquara" class="social-icon social-icon--facebook">
+                    <i class="fa fa-facebook"></i>
+                    <div class="tooltip">Facebook</div>
+                </a>
+            </div>
+            <p>2022 © Coworking Araraquara - Todos os direitos reservados.</p>
+        </section>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
