@@ -205,6 +205,10 @@ header p {
     flex-direction: column;
     justify-content: center;
 }
+
+.secao-banner h2 {
+    margin: 1rem;
+}
 /* Banner */
 
 /*Textos*/
@@ -226,6 +230,7 @@ h2 {
 h3 {
     font-size: 1.2rem;
     font-weight: 400;
+    margin: 0;
 }
 
 p {
@@ -513,7 +518,9 @@ footer p {
     .secao-localizacao {
         margin: 2em 0rem 2rem 0rem;
     }
-
+    .secao-banner h3 {
+        margin: 0rem;
+    }    
     .servicos {
         display: grid;
         grid-template-columns: 1fr;
